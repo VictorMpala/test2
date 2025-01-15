@@ -1,0 +1,13 @@
+name: Blank Repo Action
+
+on:
+  workflow_dispatch: # Allows manual triggering of the action
+  
+jobs:
+  run-something:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v3
+      - name: Run a simple command
+        run: echo "This is a blank repo action!"
