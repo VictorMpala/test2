@@ -24,7 +24,7 @@ This is the frontend part of the Project Name web application, built with React.
 ## Getting Started
 
 To get a local copy of the project up and running, follow these steps.
-
+.
 ### Prerequisites
 
 Ensure you have the following installed:
